@@ -1,5 +1,9 @@
+import random
+
 input("~The Game~")
-import os
+
+
+
 print("")
 infinity = True
 while infinity:
@@ -17,7 +21,6 @@ while infinity:
                 fish = False
                 print("")
                 print("")
-                import random
 
 
                 print("Talking to Loki!")
@@ -42,16 +45,16 @@ D: I would never give food to dirt like you!
                                 if response == "yes":
                                     wloop2 = True
                                     print("Ahh yes, come see my wares! (You and Loki go do some trading!)")
-                                    
+
                                 if response == "no":
                                     wloop2 = True
                                     print("Okay, we can trade later! (Loki looks at you suspiciously with a grin)")
-                        
+
                         elif response == "B":
                             wloop = True
                             wloop2 = False
                             while not wloop2:
-                                response = input("Ahh okay, that is fine (he says with a sigh), but anyways, would you like to trade?: ") 
+                                response = input("Ahh okay, that is fine (he says with a sigh), but anyways, would you like to trade?: ")
                                 if response == "yes":
                                     wloop2 = True
                                     print("Ahh yes, come see my wares! (You and Loki go do some trading!)")
@@ -104,7 +107,7 @@ D: I am NOT telling you where MY treasure is!
                                 if response == "yes":
                                     wloop2 = True
                                     print("Ahh yes, come see my wares! (You and Loki go do some trading!)")
-                                    
+
                                 if response == "no":
                                     wloop2 = True
                                     print("Okay, we can trade later! (Loki looks at you suspiciously with a grin)")
@@ -116,7 +119,7 @@ D: I am NOT telling you where MY treasure is!
                                 if response == "yes":
                                     wloop2 = True
                                     print("Ahh yes, come see my wares! (You and Loki go do some trading!)")
-                                    
+
                                 if response == "no":
                                     wloop2 = True
                                     print("Okay, we can trade later! (Loki looks at you suspiciously with a grin)")
@@ -128,7 +131,7 @@ D: I am NOT telling you where MY treasure is!
                                 if response == "yes":
                                     wloop2 = True
                                     print("Ahh yes, come see my wares! (You and Loki go do some trading!)")
-                                    
+
                                 if response == "no":
                                     wloop2 = True
                                     print("Okay, we can trade later! (Loki looks at you suspiciously with a grin)")
@@ -165,7 +168,7 @@ D: What are YOU calling junk?
 
 
 
-                        
+
             elif in2 == "approaching_acorn":
                 fish = False
                 print("")
@@ -234,8 +237,8 @@ J: Ignore the acorn pile
                 print("")
                 print("")
                 infinity = True
-   
-        
+
+
             elif in2 == "wood_pixie_encounter":
                 fish = False
                 print("")
@@ -285,9 +288,9 @@ B: Against a tree
 You stand up, accidentally snapping a branch off the tree. The Wood Pixie screams and says something in a different language.
 More Wood Pixies begin swarming around and then scream, in your language, 'ATTACK!'. You engage in combat.
 """)
-        
 
-                
+
+
 
 
 
@@ -315,6 +318,3 @@ More Wood Pixies begin swarming around and then scream, in your language, 'ATTAC
             in2 = input("What art do you want to see?: ")
             if in2 == "loki":
                 print("oof")
-                
-
-

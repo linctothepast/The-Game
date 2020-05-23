@@ -10,7 +10,7 @@ A: Who are you?
 B: Okay!
 C: How do I know I can trust you?
 D: I would never take trash from dirt like you.
-""")    
+""")
         question1 = question1.capitalize()
         if question1 == "A":
             repeat1 = False
@@ -109,7 +109,7 @@ B: What a fool...
                                             repeat5 = False
                                             print("(His smile immediatly turns to a frown as you pull out your weapon, and he runs into a nearby room to get his weapon and you engage in comabt)")
 
-                                            
+
                                 elif question4 == "B":
                                         repeat4 = False
                                         repeat5 = True
@@ -127,7 +127,7 @@ B: What a fool...
                                             elif question5 == "B":
                                                 repeat5 = False
                                                 print("(His smile immediatly turns to a frown as you pull out your weapon, and he runs into a nearby room to get his weapon and you engage in comabt)")
-                                
+
                         elif question3 == "C":
                             repeat3 = False
                             repeat4 = True
@@ -241,7 +241,7 @@ B: What a fool...
                                                     repeat6 = False
                                                     print("(His smile immediatly turns to a frown as you pull out your weapon, and he runs into a nearby room to get his weapon and you engage in comabt)")
 
-                                            
+
                                         elif question5 == "B":
                                                 repeat5 = False
                                                 repeat6 = True
@@ -259,7 +259,7 @@ B: What a fool...
                                                     elif question6 == "B":
                                                         repeat6 = False
                                                         print("(His smile immediatly turns to a frown as you pull out your weapon, and he runs into a nearby room to get his weapon and you engage in comabt)")
-                                
+
                                 elif question4 == "C":
                                     repeat4 = False
                                     repeat5 = True
@@ -285,4 +285,3 @@ B: What a fool...
                     repeat2 = False
                     repeat3 = True
                     while repeat3:
-                        
