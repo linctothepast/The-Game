@@ -23,16 +23,16 @@ D: I would never give food to dirt like you!
                 if response == "yes":
                     wloop2 = True
                     print("Ahh yes, come see my wares! (You and Loki go do some trading!)")
-                                
+
                 if response == "no":
                     wloop2 = True
                     print("Okay, we can trade later! (Loki looks at you suspiciously with a grin)")
-                    
+
         elif response == "B":
             wloop = True
             wloop2 = False
             while not wloop2:
-                response = input("Ahh okay, that is fine (he says with a sigh), but anyways, would you like to trade?: ") 
+                response = input("Ahh okay, that is fine (he says with a sigh), but anyways, would you like to trade?: ")
                 if response == "yes":
                     wloop2 = True
                     print("Ahh yes, come see my wares! (You and Loki go do some trading!)")
@@ -85,7 +85,7 @@ D: I am NOT telling you where MY treasure is!
                 if response == "yes":
                     wloop2 = True
                     print("Ahh yes, come see my wares! (You and Loki go do some trading!)")
-                                
+
                 if response == "no":
                     wloop2 = True
                     print("Okay, we can trade later! (Loki looks at you suspiciously with a grin)")
@@ -97,7 +97,7 @@ D: I am NOT telling you where MY treasure is!
                 if response == "yes":
                     wloop2 = True
                     print("Ahh yes, come see my wares! (You and Loki go do some trading!)")
-                                
+
                 if response == "no":
                     wloop2 = True
                     print("Okay, we can trade later! (Loki looks at you suspiciously with a grin)")
@@ -109,7 +109,7 @@ D: I am NOT telling you where MY treasure is!
                 if response == "yes":
                     wloop2 = True
                     print("Ahh yes, come see my wares! (You and Loki go do some trading!)")
-                                
+
                 if response == "no":
                     wloop2 = True
                     print("Okay, we can trade later! (Loki looks at you suspiciously with a grin)")
@@ -123,7 +123,7 @@ elif intro_num > 100 and intro_num <= 150:
 A: Yes please! I've been looking for a merchant to help me get rid of stuff!
 B: No, no, I'm good, but thank you!
 C: I would, but I don't have time!
-D: What are YOU calling junk?
+D: What are YOU calling junk, you piece of junk?
             """)
         response = response.capitalize()
         if response == "A":
