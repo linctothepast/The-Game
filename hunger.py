@@ -8,3 +8,4 @@ C:
 D:
 E:
 """)
+print("hi bot")
