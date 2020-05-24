@@ -9,3 +9,5 @@ You can also do this
 #I want you to make a program that asks for the persons name and then write a sentence using there name
 #Then upload it (remember how)
 #Write the program starting here (on this file):
+name=input ("What is your name?")
+print (Your name is "name")
