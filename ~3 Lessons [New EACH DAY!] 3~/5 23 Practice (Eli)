@@ -10,5 +10,5 @@ You can also do this
 #Then upload it (remember how)
 #Write the program starting here (on this file):
 name=input ("What is your name?")
-print (Your name is "name")
-#print("Your name is " +name)
+print ("Your name is " +name)
+f
