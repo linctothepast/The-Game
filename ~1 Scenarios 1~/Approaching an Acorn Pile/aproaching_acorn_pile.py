@@ -1,9 +1,11 @@
 import random
+import acorn_pile_choiceA
+import acorn_pile_choiceB
 print("APROACHING AN ACORN PILE")
 print("---------------------------")
 rng = random.randint(1, 4)
-acorn = True
-while acorn:
+loop = True
+while loop:
     choice = input("""You're walking through the Forest of Kloa,
 and you come across a small pile of acorns (they seem to be twitching).
 How should you approach this?:
@@ -20,13 +22,9 @@ J: Ignore the acorn pile
 """)
     choice = choice.capitalize()
     if choice == "A":
-        acorn = False
-        print("""(You hear a shreik from the acorn pile as an angry acorn
-monster rises from the pile, and you initiate combat)""")
+        acorn_pile_choiceA()
     elif choice == "B":
-        acorn = False
-        print("""(You hear a loud growl from the acorn pile as
-an angry acorn monster rises from the pile, and you initiate combat)""")
+        acorn_pile_choiceB()
     elif choice == "C":
         acorn = False
         if rng == 1:
