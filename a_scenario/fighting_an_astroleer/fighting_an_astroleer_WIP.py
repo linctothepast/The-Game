@@ -1,39 +1,40 @@
 import random
 level = random.randint(10, 20)
-# Creating the levels pupil
+# Creating the levels stuff
 if level == 10:
     astroleer_color = "blue"
     astroleer_health = random.randint(42, 56)
 
-if level == 11:
+elif level == 11:
     astroleer_color = "green"
     astroleer_health = random.randint(47, 62)
 
-if level == 12:
+elif level == 12:
     astroleer_color = "yellow"
     astroleer_health = random.randint(52, 68)
-if level == 13:
+
+elif level == 13:
     astroleer_color = "orange"
 
-if level == 14:
+elif level == 14:
     astroleer_color = "red"
 
-if level == 15:
+elif level == 15:
     astroleer_color = "pink"
 
-if level == 16:
+elif level == 16:
     astroleer_color = "purple"
 
-if level == 17:
+elif level == 17:
     astroleer_color = "indigo"
 
-if level == 18:
+elif level == 18:
     astroleer_color = "black"
 
-if level == 19:
+elif level == 19:
     astroleer_color = "silver"
 
-if level == 20:
+elif level == 20:
     astroleer_color = "gold"
 
 # Done
