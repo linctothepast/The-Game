@@ -204,8 +204,3 @@ def acorn_pile_choice_j():
     print("(You ignore the acorn pile and go on your way)")
     if loop:
         print("")
-
-# Playing the actual thing
-
-
-approaching_acorn_pile()

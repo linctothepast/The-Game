@@ -1,5 +1,6 @@
 import random
-from .Apao import approaching_acorn_pile
+import a_scenario.approaching_an_acorn_pile.approaching_acorn_pile_function
+
 input("~The Game~")
 
 
