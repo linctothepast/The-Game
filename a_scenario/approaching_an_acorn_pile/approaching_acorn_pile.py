@@ -165,6 +165,9 @@ you figured out how to approach us carefully!)""")
 you see a shiny blue acorn!) This is a blue acorn it shows that you are
 trustorthy, show it to any member of my kind
 and they will instantly trust you!""")
+        blueacorn = True
+        if not blueacorn:
+            print("")
     else:
         print("(The acorn offers you a small pile of acorns!)")
     if loop:
