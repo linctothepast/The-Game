@@ -15,28 +15,28 @@ elif level == 12:
 
 elif level == 13:
     astroleer_color = "orange"
-
-elif level == 14:
+    astroleer_health = random.randint(57, 74)
+if level == 14:
     astroleer_color = "red"
-
-elif level == 15:
+    astroleer_health = random.randint(62, 80)
+if level == 15:
     astroleer_color = "pink"
-
-elif level == 16:
+    astroleer_health = random.randint(67, 86)
+if level == 16:
     astroleer_color = "purple"
-
-elif level == 17:
+    astroleer_health = random.randint(73, 93)
+if level == 17:
     astroleer_color = "indigo"
-
-elif level == 18:
+    astroleer_health = random.randint(79, 100)
+if level == 18:
     astroleer_color = "black"
-
-elif level == 19:
+    astroleer_health = random.randint(86, 108)
+if level == 19:
     astroleer_color = "silver"
-
-elif level == 20:
+    astroleer_health = random.randint(93, 116)
+if level == 20:
     astroleer_color = "gold"
-
+    astroleer_health = random.randint(100, 124)
 # Done
 
 print("FIGHTING AN ASTROLEER")
