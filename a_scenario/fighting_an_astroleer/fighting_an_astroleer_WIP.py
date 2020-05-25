@@ -14,28 +14,28 @@ if level == 12:
     astroleer_health = random.randint(52, 68)
 if level == 13:
     astroleer_color = "orange"
-
+    astroleer_health = random.randint(57, 74)
 if level == 14:
     astroleer_color = "red"
-
+    astroleer_health = random.randint(62, 80)
 if level == 15:
     astroleer_color = "pink"
-
+    astroleer_health = random.randint(67, 86)
 if level == 16:
     astroleer_color = "purple"
-
+    astroleer_health = random.randint(73, 93)
 if level == 17:
     astroleer_color = "indigo"
-
+    astroleer_health = random.randint(79, 100)
 if level == 18:
     astroleer_color = "black"
-
+    astroleer_health = random.randint(86, 108)
 if level == 19:
     astroleer_color = "silver"
-
+    astroleer_health = random.randint(93, 116)
 if level == 20:
     astroleer_color = "gold"
-
+    astroleer_health = random.randint(100, 124)
 # Done
 
 print("FIGHTING AN ASTROLEER")
