@@ -72,10 +72,10 @@ D: I would never give food to dirt like you!
                     wloop = False
                     while not wloop:
                         response = input("""Great items, great prices!
-A: Here, can I have a look at your wares?
+A: Can I have a look at your wares?
 B: Thank you, but I can't trade right now!
 C: I can't trade, but we can still talk.
-D: I would never trade with dirt like you!
+D: I would never trade with filthy beggar scum like you!
                 """)
                         response = response.capitalize()
                         if response == "A":
