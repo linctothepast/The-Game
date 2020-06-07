@@ -30,7 +30,7 @@ You decide to sleep on a soft patch of grass for the night, as you start to
 doze off, you hear a loud scream in the night, instantly bolting you awake.
 You look around to see where it was coming from, and when you turn around,
 you see a giant spherical being with what looks like just a mouth fly at you.
-As it get's closer you see that it almost looks like it is a floating eye with
+As it gets closer you see that it almost looks like it is a floating eye with
 a mouth! You look up and see an entire group of astroleers, each one has a
 """ + astroleer_color + """ pupil, luckily those ones don't yet see you...
 What should you do?:
