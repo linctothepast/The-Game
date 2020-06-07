@@ -35,7 +35,7 @@ while infinity:
 A: Here I have some rations I could spare.
 B: No, I don't have any food I couls spare you, sorry...
 C: No, but we can still trade!
-D: I would never give food to dirt like you!
+D: I would never give food to lowlive street merchants like you! I have a life!
                 """)
                         response = response.capitalize()
                         if response == "A":
